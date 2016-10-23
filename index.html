@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Shake Framework</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta  name="description" content="A little framework for shake you up!">
+	<meta name="author" content="Marcos Mendes">
+	<meta name="theme-color" content="#000000">
+	<meta name="keywords" content="vibrate API, html5, vibrate API framework, shake, shake.js, shakejs, shake framework, vibrate web, vibrate javascript, smartphone vibrate web" />
+    <meta name="robots" content="index,follow" />
+    <link rel="icon" href="favicon.ico">
+
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<script src="shake.js"></script>
+	<script src="app.js"></script>
+</head>
+<body>
+
+	<a href="https://github.com/marcoshmendes/shakeJS"><img style="position: absolute; top: 0; right: 0; border: 0;z-index: 9999;" src="https://camo.githubusercontent.com/652c5b9acfaddf3a9c326fa6bde407b87f7be0f4/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f6769746875622f726962626f6e732f666f726b6d655f72696768745f6f72616e67655f6666373630302e706e67" alt="Fork me on GitHub" data-canonical-src="https://s3.amazonaws.com/github/ribbons/forkme_right_orange_ff7600.png"></a>
+
+	<nav class="navbar navbar-inverse">
+      <div class="container">
+        <div class="navbar-header">
+          <a class="navbar-brand" href="#">Shake.js</a>
+        </div>
+      </div>
+    </nav>
+
+    <div class="container">
+
+      <div class="text-center">
+        <h1>~~ Shake.JS ~~</h1>
+        <p class="lead">Let's shake baby! shake.js is cool framework that uses Vibrate API from HTML5 to make smartphones shake up in different ways. You can use shake.js in your project to make your app more interactive</p>
+      </div>
+
+      <section>
+      	<h3>Examples</h3>
+      	<p>Click and try! <span class="text-danger">Only on smartphones or computers with vibrate support</span></p>
+      	<div class="row">
+	      	<div class="col-lg-3">
+	      		<pre>shake.tremble('zigZig');</pre>
+	      		<button class="btn btn-info btn-lg btn-block" onClick="tremble('zigZig')">zigZig</button>
+	      	</div>
+	      	<div class="col-lg-3">
+	      		<pre>shake.tremble('continous');</pre>
+	      		<button class="btn btn-info btn-lg btn-block" onClick="tremble('continous')">continous</button>
+	      	</div>
+	      	<div class="col-lg-3">
+	      		<pre>shake.tremble('sms');</pre>
+	      		<button class="btn btn-info btn-lg btn-block" onClick="tremble('sms')">sms</button>
+	      	</div>
+	      	<div class="col-lg-3">
+	      		<pre>shake.tremble('badum');</pre>
+	      		<button class="btn btn-info btn-lg btn-block" onClick="tremble('badum')">badum</button>
+	      	</div>
+	    </div>
+	    <br />
+	    <div class="row">
+	      	<div class="col-lg-3">
+	      		<pre>shake.tremble('alarmClock');</pre>
+	      		<button class="btn btn-info btn-lg btn-block" onClick="tremble('alarmClock')">alarmClock</button>
+	      	</div>
+	      	<div class="col-lg-3">
+	      		<pre>shake.tremble('sos');</pre>
+	      		<button class="btn btn-info btn-lg btn-block" onClick="tremble('sos')">sos</button>
+	      	</div>
+	      	<div class="col-lg-3">
+	      		<pre>shake.tremble('intruders');</pre>
+	      		<button class="btn btn-info btn-lg btn-block" onClick="tremble('intruders')">intruders</button>
+	      	</div>
+	      	<div class="col-lg-3">
+	      		<pre>shake.tremble('annoying');</pre>
+	      		<button class="btn btn-info btn-lg btn-block" onClick="tremble('annoying')">annoying</button>
+	      	</div>
+	    </div>
+	    <br />
+	    <div class="row">
+	      	<div class="col-lg-3">
+	      		<pre>shake.tremble('doorBell');</pre>
+	      		<button class="btn btn-info btn-lg btn-block" onClick="tremble('doorBell')">doorBell</button>
+	      	</div>
+      	</div>
+      </section>
+
+      <section>
+      	<h3>Download</h3>
+      	<a href="https://github.com/marcoshmendes/shakeJS"><h4>Github</h4></a>
+      </section>
+
+      <section>
+      	<h3>Installation</h3>
+      	<p>You can download from <a href="https://github.com/marcoshmendes/shakeJS">github</a> and import on your project</p>
+      	<pre>&lt;script src="shake.js"&gt;&lt;/script&gt;</pre>
+      </section>
+
+      <section>
+      	<h3>Usage</h3>
+      	<p>shake.js has only one function named <strong>tremble()</strong>, you can manipulate vibration modes through this function.</p>
+      	<pre>tremble('argument')</pre>
+      	<p>The function accept one argument from its list, you can check it out below</p>
+      	<pre>
+//List of possible values
+
+shake.tremble("zigZig");
+shake.tremble("continous");
+shake.tremble("sms");
+shake.tremble("badum");
+shake.tremble("alarmClock");
+shake.tremble("sos");
+shake.tremble("intruders");
+shake.tremble("annoying");
+shake.tremble("doorBell");
+      	</pre>
+      </section>
+
+      <section>
+      	<h1>Support</h1>
+      	<p>The site CanIUse shows browser support for this functionality</p>
+      	<img src="support-api.png" alt="Browser support for vibrate API">
+      </section>
+
+    </div><!-- /.container -->
+
+    <br /><br />
+
+    <div class="container">
+	    <footer>
+	    	Developed by <a href="http://mhmendes.com" target="_blank">Marcos Mendes</a> | 2016 - MIT License
+	    </footer>
+	    <br /><br />
+	</div>
+
+</body>
+</html>
