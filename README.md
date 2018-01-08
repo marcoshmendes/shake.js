@@ -4,7 +4,9 @@ Let's shake baby! shake.js is a cool framework that uses Vibrate API from HTML5 
 
 ###Installation
 
-Import shake.js into your project
+```
+bower install shakejs --save
+```
 
 ```html
 <script src="shake.min.js"></script>
@@ -35,6 +37,4 @@ shake.tremble("doorBell");
 
 ###Support
 
-The site http://caniuse.com/ show us the support for this functionality
- 
-![alt text](http://mhmendes.com/shakejs/support-api.png "Support for vibrate API")
+You can check browser support for this functionality on this link: https://caniuse.com/#search=Vibration%20API
