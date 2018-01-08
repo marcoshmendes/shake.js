@@ -2,10 +2,6 @@
 
 Let's shake baby! shake.js is a cool framework that uses Vibrate API from HTML5 to make smartphones shake up in different ways. You can use shake.js in your project to make your app more interactive, like notifications, games and others.
 
-###Download
-
-<a href="http://mhmendes.com/shakejs">http://mhmendes.com/shakejs</a>
-
 ###Installation
 
 Import shake.js into your project
