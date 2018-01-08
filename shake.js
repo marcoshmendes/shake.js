@@ -1,6 +1,6 @@
 /* Shake.JS
 / Marcos Mendes 2016
-/ mhmendes.com | @marcoshmendes
+/ marcoshmendes.com | @marcoshmendes
 / MIT License 
 */ 
 
