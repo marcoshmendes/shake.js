@@ -1,0 +1,25 @@
+{
+  "name": "shakejs",
+  "main": "shake.js",
+  "homepage": "https://github.com/marcoshmendes/shake.js",
+  "authors": [
+    "Marcos Mendes <marcos.mendes@live.com> (http://marcoshmendes.com)"
+  ],
+  "description": "shake.js is cool framework that uses Vibrate API from HTML5 to make smartphones shake-up in different ways",
+  "keywords": [
+    "shake",
+    "vibrate",
+    "vibrate-api",
+    "html5-vibrate",
+    "shake-up"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests",
+    "docs"
+  ]
+}
