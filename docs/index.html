@@ -32,73 +32,69 @@
       <div class="text-center">
         <h1>~~ Shake.JS ~~</h1>
         <p class="lead">Let's shake baby! shake.js is cool framework that uses Vibrate API from HTML5 to make smartphones shake up in different ways. You can use shake.js in your project to make your app more interactive</p>
+        <h3 style="background-color: #f7b776; width: auto; padding: 10px; color: #ffffff;"><strong>bower install shakejs --save</strong></h3>
       </div>
 
       <section>
       	<h3>Examples</h3>
-      	<p>Click and try! <span class="text-danger">Only on smartphones or computers with vibrate support</span></p>
+      	<p>Click and try! <span class="text-danger">Only on smartphones or devices with vibrate support</span></p>
       	<div class="row">
 	      	<div class="col-lg-3">
 	      		<pre>shake.tremble('zigZig');</pre>
-	      		<button class="btn btn-info btn-lg btn-block" onClick="tremble('zigZig')">zigZig</button>
+	      		<button class="btn btn-primary btn-lg btn-block" onClick="tremble('zigZig')">zigZig</button>
 	      	</div>
 	      	<div class="col-lg-3">
 	      		<pre>shake.tremble('continous');</pre>
-	      		<button class="btn btn-info btn-lg btn-block" onClick="tremble('continous')">continous</button>
+	      		<button class="btn btn-primary btn-lg btn-block" onClick="tremble('continous')">continous</button>
 	      	</div>
 	      	<div class="col-lg-3">
 	      		<pre>shake.tremble('sms');</pre>
-	      		<button class="btn btn-info btn-lg btn-block" onClick="tremble('sms')">sms</button>
+	      		<button class="btn btn-primary btn-lg btn-block" onClick="tremble('sms')">sms</button>
 	      	</div>
 	      	<div class="col-lg-3">
 	      		<pre>shake.tremble('badum');</pre>
-	      		<button class="btn btn-info btn-lg btn-block" onClick="tremble('badum')">badum</button>
+	      		<button class="btn btn-primary btn-lg btn-block" onClick="tremble('badum')">badum</button>
 	      	</div>
 	    </div>
 	    <br />
 	    <div class="row">
 	      	<div class="col-lg-3">
 	      		<pre>shake.tremble('alarmClock');</pre>
-	      		<button class="btn btn-info btn-lg btn-block" onClick="tremble('alarmClock')">alarmClock</button>
+	      		<button class="btn btn-primary btn-lg btn-block" onClick="tremble('alarmClock')">alarmClock</button>
 	      	</div>
 	      	<div class="col-lg-3">
 	      		<pre>shake.tremble('sos');</pre>
-	      		<button class="btn btn-info btn-lg btn-block" onClick="tremble('sos')">sos</button>
+	      		<button class="btn btn-primary btn-lg btn-block" onClick="tremble('sos')">sos</button>
 	      	</div>
 	      	<div class="col-lg-3">
 	      		<pre>shake.tremble('intruders');</pre>
-	      		<button class="btn btn-info btn-lg btn-block" onClick="tremble('intruders')">intruders</button>
+	      		<button class="btn btn-primary btn-lg btn-block" onClick="tremble('intruders')">intruders</button>
 	      	</div>
 	      	<div class="col-lg-3">
 	      		<pre>shake.tremble('annoying');</pre>
-	      		<button class="btn btn-info btn-lg btn-block" onClick="tremble('annoying')">annoying</button>
+	      		<button class="btn btn-primary btn-lg btn-block" onClick="tremble('annoying')">annoying</button>
 	      	</div>
 	    </div>
 	    <br />
 	    <div class="row">
 	      	<div class="col-lg-3">
 	      		<pre>shake.tremble('doorBell');</pre>
-	      		<button class="btn btn-info btn-lg btn-block" onClick="tremble('doorBell')">doorBell</button>
+	      		<button class="btn btn-primary btn-lg btn-block" onClick="tremble('doorBell')">doorBell</button>
 	      	</div>
       	</div>
       </section>
 
       <section>
-      	<h3>Download</h3>
-      	<a href="https://github.com/marcoshmendes/shakeJS"><h4>Github</h4></a>
-      </section>
-
-      <section>
       	<h3>Installation</h3>
-      	<p>You can download from <a href="https://github.com/marcoshmendes/shakeJS">github</a> and import on your project</p>
-      	<pre>&lt;script src="shake.js"&gt;&lt;/script&gt;</pre>
+      	<p>Use bower to install</p>
+      	<pre>bower install shakejs --save</pre>
       </section>
 
       <section>
       	<h3>Usage</h3>
-      	<p>shake.js has only one function named <strong>tremble()</strong>, you can manipulate vibration modes through this function.</p>
-      	<pre>tremble('argument')</pre>
-      	<p>The function accept one argument from its list, you can check it out below</p>
+      	<p>Import script to your HTML and you're done!</p>
+      	<p>Now, use the object <strong>shake</strong> on your script, it has a unique method named <strong>tremble('param')</strong>, you can manipulate vibration modes through this method.</p>
+      	<p>The function accept one param from its list, you can check it out below</p>
       	<pre>
 //List of possible values
 
@@ -115,14 +111,11 @@ shake.tremble("doorBell");
       </section>
 
       <section>
-      	<h1>Support</h1>
-      	<p>The site CanIUse shows browser support for this functionality</p>
-      	<img src="support-api.png" alt="Browser support for vibrate API">
+      	<h3>Support</h3>
+      	<p>You can check browser support for this functionality on this link: <a  href="https://caniuse.com/#search=Vibration%20API" target="_blank">https://caniuse.com/#search=Vibration%20API</a></p>
       </section>
 
-    </div><!-- /.container -->
-
-    <br /><br />
+    </div>
 
     <div class="container">
 	    <footer>
@@ -130,6 +123,14 @@ shake.tremble("doorBell");
 	    </footer>
 	    <br /><br />
 	</div>
+
+	<script>
+	  window.dataLayer = window.dataLayer || [];
+	  function gtag(){dataLayer.push(arguments);}
+	  gtag('js', new Date());
+
+	  gtag('config', 'UA-90111120-1');
+	</script>
 
 </body>
 </html>
